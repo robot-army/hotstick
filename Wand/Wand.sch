@@ -401,30 +401,20 @@ F 3 "" H 9900 2350 60  0000 C CNN
 $EndComp
 Text Label 9850 2050 2    60   ~ 0
 HEAT
-Text Label 9850 2150 2    60   ~ 0
-SDA
-Text Label 9850 2250 2    60   ~ 0
-SCL
 Wire Wire Line
-	1550 5650 2000 5650
-Wire Wire Line
-	2000 5650 2150 5650
+	1550 5650 2150 5650
 Wire Wire Line
 	2000 5350 2000 5650
 Connection ~ 2000 5650
 Wire Wire Line
-	2450 5650 2650 5650
-Wire Wire Line
-	2650 5650 3300 5650
+	2450 5650 3300 5650
 Wire Wire Line
 	2650 5950 2650 5650
 Connection ~ 2650 5650
 Wire Wire Line
 	2650 6250 2650 6450
 Wire Wire Line
-	3150 5200 3150 5850
-Wire Wire Line
-	3150 5850 3150 5950
+	3150 5200 3150 5950
 Wire Wire Line
 	3150 5850 3300 5850
 Wire Wire Line
@@ -435,25 +425,19 @@ Wire Wire Line
 Wire Wire Line
 	4350 5200 4350 5750
 Wire Wire Line
-	4300 5750 4350 5750
-Wire Wire Line
-	4350 5750 4400 5750
+	4300 5750 4400 5750
 Connection ~ 4350 5750
 Wire Wire Line
 	3700 5350 3700 5050
 Wire Wire Line
 	3150 6250 3700 6250
 Wire Wire Line
-	3700 6150 3700 6250
-Wire Wire Line
-	3700 6250 3700 6450
+	3700 6150 3700 6450
 Connection ~ 3700 6250
 Wire Wire Line
 	4750 6100 4750 6450
 Wire Wire Line
-	4700 5750 4750 5750
-Wire Wire Line
-	4750 5750 5150 5750
+	4700 5750 5150 5750
 Wire Wire Line
 	4750 5750 4750 5800
 Connection ~ 4750 5750
@@ -468,13 +452,9 @@ Wire Wire Line
 Wire Wire Line
 	4400 1850 4400 1650
 Wire Wire Line
-	4400 1650 4700 1650
+	4400 1650 5100 1650
 Wire Wire Line
-	4700 1650 5100 1650
-Wire Wire Line
-	4700 1950 4700 2000
-Wire Wire Line
-	4700 2000 4700 2050
+	4700 1950 4700 2050
 Connection ~ 4700 1650
 Wire Wire Line
 	4700 2000 4400 2000
@@ -486,33 +466,21 @@ Connection ~ 4700 2000
 Wire Wire Line
 	5100 2400 5100 1950
 Wire Wire Line
-	4700 2400 5000 2400
-Wire Wire Line
-	5000 2400 5100 2400
+	4700 2400 5100 2400
 Wire Wire Line
 	5000 2400 5000 2450
 Wire Wire Line
 	4700 2350 4700 2400
 Connection ~ 5000 2400
 Wire Wire Line
-	1450 1200 1450 1250
-Wire Wire Line
-	1450 1250 1450 1350
-Wire Wire Line
-	1450 1350 1450 1550
-Wire Wire Line
-	1450 1550 1450 1850
+	1450 1200 1450 1850
 Wire Wire Line
 	1450 1250 1700 1250
 Wire Wire Line
 	1450 1350 1700 1350
 Connection ~ 1450 1250
 Wire Wire Line
-	1550 3350 1550 3450
-Wire Wire Line
-	1550 3450 1550 3550
-Wire Wire Line
-	1550 3550 1550 3700
+	1550 3350 1550 3700
 Wire Wire Line
 	1550 3550 1700 3550
 Wire Wire Line
@@ -623,8 +591,6 @@ NoConn ~ 1700 2700
 NoConn ~ 3600 3550
 NoConn ~ 3600 3250
 NoConn ~ 3600 3050
-NoConn ~ 3600 2950
-NoConn ~ 3600 2850
 NoConn ~ 3600 2400
 NoConn ~ 3600 2300
 NoConn ~ 3600 2200
@@ -728,4 +694,16 @@ F 3 "" H 10300 3700 60  0000 C CNN
 	1    10300 3700
 	1    0    0    -1  
 $EndComp
+Text Label 3750 2850 0    60   ~ 0
+RX
+Text Label 3750 2950 0    60   ~ 0
+TX
+Wire Wire Line
+	3600 2850 3750 2850
+Wire Wire Line
+	3600 2950 3750 2950
+Text Label 9850 2250 2    60   ~ 0
+TX
+Text Label 9850 2150 2    60   ~ 0
+RX
 $EndSCHEMATC

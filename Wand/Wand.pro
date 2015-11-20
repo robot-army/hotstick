@@ -1,4 +1,4 @@
-update=17/11/2015 16:19:49
+update=20/11/2015 12:46:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,13 @@ LibName29=valves
 LibName30=mpu-6050
 LibName31=Wand
 LibName32=tmp10x
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Output/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

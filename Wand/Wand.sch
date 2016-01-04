@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:Wand-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -47,17 +46,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ATMEGA328P-A U3
-U 1 1 563E7654
-P 2450 2550
-F 0 "U3" H 1700 3800 40  0000 L BNN
-F 1 "ATMEGA328-MMH" H 2850 1150 40  0000 L BNN
-F 2 "" H 2450 2550 30  0000 C CIN
-F 3 "" H 2450 2550 60  0000 C CNN
-	1    2450 2550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Crystal Y1
 U 1 1 563E76C3
@@ -392,8 +380,6 @@ Text Label 3600 3550 0    60   ~ 0
 LED_G
 Text Label 3600 3650 0    60   ~ 0
 LED_B
-NoConn ~ 1550 2800
-NoConn ~ 1550 2900
 NoConn ~ 3450 3750
 NoConn ~ 3450 3450
 NoConn ~ 3450 3250
@@ -731,7 +717,6 @@ Wire Wire Line
 	10000 2100 10000 2300
 Wire Wire Line
 	1300 2050 1550 2050
-Connection ~ 1300 1550
 Wire Wire Line
 	1300 1750 1550 1750
 Wire Wire Line
@@ -782,19 +767,11 @@ Wire Wire Line
 	9450 5050 9650 5050
 Wire Wire Line
 	9650 5250 9450 5250
-Connection ~ 1400 3650
-Wire Wire Line
-	1550 3550 1400 3550
-Connection ~ 1400 3750
 Wire Wire Line
 	1400 3650 1550 3650
 Wire Wire Line
 	1400 3750 1550 3750
-Wire Wire Line
-	1400 3550 1400 3900
 Connection ~ 1300 1450
-Wire Wire Line
-	1300 1550 1550 1550
 Wire Wire Line
 	1300 1450 1550 1450
 Connection ~ 4850 2600
@@ -994,4 +971,17 @@ Wire Wire Line
 	1300 2400 1300 2450
 Wire Wire Line
 	1300 2050 1300 2100
+$Comp
+L ATMEGA328P-MM U3
+U 1 1 563E7654
+P 2450 2550
+F 0 "U3" H 1700 3800 40  0000 L BNN
+F 1 "ATMEGA328-MMH" H 2850 1150 40  0000 L BNN
+F 2 "" H 2450 2550 30  0000 C CIN
+F 3 "" H 2450 2550 60  0000 C CNN
+	1    2450 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3650 1400 3900
 $EndSCHEMATC

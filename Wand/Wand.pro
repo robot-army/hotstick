@@ -1,4 +1,4 @@
-update=04/01/2016 17:08:20
+update=11/01/2016 15:54:54
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName29=valves
 LibName30=mpu-6050
 LibName31=Wand
 LibName32=tmp10x
+LibName33=EBS35

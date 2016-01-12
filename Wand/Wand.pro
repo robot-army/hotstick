@@ -1,4 +1,4 @@
-update=11/01/2016 15:54:54
+update=12/01/2016 23:28:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -72,3 +72,4 @@ LibName30=mpu-6050
 LibName31=Wand
 LibName32=tmp10x
 LibName33=EBS35
+LibName34=JACK_STEREO

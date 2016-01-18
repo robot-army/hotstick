@@ -98,7 +98,7 @@ U 1 1 56411635
 P 10000 5000
 F 0 "P2" H 10000 5250 50  0000 C CNN
 F 1 "KLB4" H 9950 4700 50  0000 C CNN
-F 2 "Wand:Reichelt_EBS35" H 10100 4850 60  0001 C CNN
+F 2 "SMD_Packages:Conn-3" H 10100 4850 60  0001 C CNN
 F 3 "" H 10100 4850 60  0000 C CNN
 	1    10000 5000
 	-1   0    0    -1  
@@ -217,7 +217,6 @@ NoConn ~ 3450 3250
 NoConn ~ 3450 2600
 NoConn ~ 3450 2500
 NoConn ~ 3450 2400
-NoConn ~ 3450 1650
 NoConn ~ 3450 1550
 NoConn ~ 8400 2000
 NoConn ~ 8400 1850
@@ -628,7 +627,6 @@ Wire Wire Line
 NoConn ~ 3450 2300
 NoConn ~ 3450 2050
 NoConn ~ 3450 2150
-NoConn ~ 2700 1950
 $Comp
 L R R1
 U 1 1 56959728
@@ -751,17 +749,17 @@ MISO
 Text Label 3700 5850 0    60   ~ 0
 SCK
 Text Label 3700 6000 0    60   ~ 0
-MAX6675_SELECT
+TIP_TEMP_SELECT
 Wire Wire Line
 	3650 6000 3700 6000
 Wire Wire Line
 	3650 5850 3700 5850
 Wire Wire Line
 	3650 5700 3700 5700
-Text Label 3600 1450 0    60   ~ 0
-MAX6675_SELECT
+Text Label 3600 1650 0    60   ~ 0
+TIP_TEMP_SELECT
 Wire Wire Line
-	3600 1450 3450 1450
+	3600 1650 3450 1650
 Wire Wire Line
 	1550 3750 1400 3750
 Connection ~ 1400 3750
@@ -771,4 +769,5 @@ Text Notes 8250 5800 0    60   ~ 0
 HEAT and GND traces between the Base unit connector and \nTip connector need to be able to carry 5A so trace needs to \nbe a minimum of 4mm
 Text Notes 7050 6700 0    60   ~ 12
 Hotstick Wand
+NoConn ~ 3450 1450
 $EndSCHEMATC

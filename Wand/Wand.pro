@@ -1,4 +1,4 @@
-update=20/11/2015 12:46:33
+update=12/01/2016 23:28:47
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=Output/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -61,13 +71,5 @@ LibName29=valves
 LibName30=mpu-6050
 LibName31=Wand
 LibName32=tmp10x
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=Output/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName33=EBS35
+LibName34=JACK_STEREO

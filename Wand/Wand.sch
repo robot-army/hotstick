@@ -39,10 +39,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Hotstick Wand"
+Date "2016-01-20"
+Rev "1"
+Comp "rLab/Reading Hackspace"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -765,8 +765,6 @@ Text Notes 2800 4750 0    60   ~ 12
 Tip Tempurature
 Text Notes 8250 5800 0    60   ~ 0
 HEAT and GND traces between the Base unit connector and \nTip connector need to be able to carry 5A so trace needs to \nbe a minimum of 4mm
-Text Notes 7050 6700 0    60   ~ 12
-Hotstick Wand
 NoConn ~ 3450 1450
 Text Label 8500 2000 0    60   ~ 0
 MPU_INT

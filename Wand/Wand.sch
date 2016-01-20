@@ -213,12 +213,10 @@ Text Label 3600 3650 0    60   ~ 0
 LED_B
 NoConn ~ 3450 3750
 NoConn ~ 3450 3450
-NoConn ~ 3450 3250
 NoConn ~ 3450 2600
 NoConn ~ 3450 2500
 NoConn ~ 3450 2400
 NoConn ~ 3450 1550
-NoConn ~ 8400 2000
 NoConn ~ 8400 1850
 NoConn ~ 8400 1750
 $Comp
@@ -770,4 +768,12 @@ HEAT and GND traces between the Base unit connector and \nTip connector need to 
 Text Notes 7050 6700 0    60   ~ 12
 Hotstick Wand
 NoConn ~ 3450 1450
+Text Label 8500 2000 0    60   ~ 0
+MPU_INT
+Wire Wire Line
+	8400 2000 8500 2000
+Text Label 3600 3250 0    60   ~ 0
+MPU_INT
+Wire Wire Line
+	3450 3250 3600 3250
 $EndSCHEMATC

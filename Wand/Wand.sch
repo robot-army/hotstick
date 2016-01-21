@@ -39,10 +39,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Hotstick Wand"
+Date "2016-01-20"
+Rev "1"
+Comp "rLab/Reading Hackspace"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -98,7 +98,7 @@ U 1 1 56411635
 P 10000 5000
 F 0 "P2" H 10000 5250 50  0000 C CNN
 F 1 "KLB4" H 9950 4700 50  0000 C CNN
-F 2 "SMD_Packages:Conn-3" H 10100 4850 60  0001 C CNN
+F 2 "Wand:Jack_3.5mm_KLB" H 10100 4850 60  0001 C CNN
 F 3 "" H 10100 4850 60  0000 C CNN
 	1    10000 5000
 	-1   0    0    -1  
@@ -141,7 +141,7 @@ U 1 1 56417299
 P 10200 1900
 F 0 "P3" H 10200 2200 50  0000 C CNN
 F 1 "BASE" V 10300 1900 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 10200 1900 60  0001 C CNN
+F 2 "Wand:Base_Connector" H 10200 1900 60  0001 C CNN
 F 3 "" H 10200 1900 60  0000 C CNN
 	1    10200 1900
 	1    0    0    -1  
@@ -213,12 +213,10 @@ Text Label 3600 3650 0    60   ~ 0
 LED_B
 NoConn ~ 3450 3750
 NoConn ~ 3450 3450
-NoConn ~ 3450 3250
 NoConn ~ 3450 2600
 NoConn ~ 3450 2500
 NoConn ~ 3450 2400
 NoConn ~ 3450 1550
-NoConn ~ 8400 2000
 NoConn ~ 8400 1850
 NoConn ~ 8400 1750
 $Comp
@@ -767,7 +765,13 @@ Text Notes 2800 4750 0    60   ~ 12
 Tip Tempurature
 Text Notes 8250 5800 0    60   ~ 0
 HEAT and GND traces between the Base unit connector and \nTip connector need to be able to carry 5A so trace needs to \nbe a minimum of 4mm
-Text Notes 7050 6700 0    60   ~ 12
-Hotstick Wand
 NoConn ~ 3450 1450
+Text Label 8500 2000 0    60   ~ 0
+MPU_INT
+Wire Wire Line
+	8400 2000 8500 2000
+Text Label 3600 3250 0    60   ~ 0
+MPU_INT
+Wire Wire Line
+	3450 3250 3600 3250
 $EndSCHEMATC

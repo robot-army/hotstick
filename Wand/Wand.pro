@@ -1,4 +1,4 @@
-update=12/01/2016 23:28:47
+update=Sunday, 27 March 2016 20:10:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -73,3 +71,5 @@ LibName31=Wand
 LibName32=tmp10x
 LibName33=EBS35
 LibName34=JACK_STEREO
+[general]
+version=1
